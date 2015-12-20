@@ -4,4 +4,4 @@ function remove(id) {
     return (elem=document.getElementById(id)).parentNode.removeChild(elem);
 }
 remove("static-announcement");
-document.getElementById("messages").style.height="50px";
+document.getElementById("messages").style.height="100% - 50px";
