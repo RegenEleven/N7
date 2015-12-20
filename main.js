@@ -5,3 +5,4 @@ function remove(id) {
 }
 remove("static-announcement");
 document.getElementById("messages").style.height="calc(100%-36px)";
+console.log(startMessage);
