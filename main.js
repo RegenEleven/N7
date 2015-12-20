@@ -6,3 +6,5 @@ function remove(id) {
 }
 remove("static-announcement");
 document.getElementById("messages").style.height="470px";
+}
+removeAnouncement();
